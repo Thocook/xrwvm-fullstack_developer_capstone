@@ -3,6 +3,11 @@ img{
   align-self: center;
 }
 
+image{
+    max-width: 30%;
+    align-self: center;
+    max-height: 200px;
+}
 .card{
   border: rgb(103, 102, 105) 3px solid;
   display: flex;  
@@ -11,6 +16,7 @@ img{
   margin-right:5%;
   margin-top: 1%;
   margin-bottom: 1%;
+  max-height: 200px;
 }
 
 .row{
@@ -123,4 +129,21 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 50%;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.contact-text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Adjust color as needed */
 }
